@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodeGraphParseTest.Util;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -30,6 +31,7 @@ namespace CodeGraphParseTest
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            TestApp1Util.executeFunction();
         }
 
         /// <summary>
